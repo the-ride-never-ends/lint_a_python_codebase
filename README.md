@@ -1,13 +1,15 @@
 # Python Linting Utility
 ## Version 0.1.0
-A command-line tool for automatically fixing common linting issues in Python files.
+A command-line tool for automatically fixing common linting issues in Python files. 
+Part of the Claude's Toolbox collection.
 
 ## Features
-- Fix blank lines containing whitespace
-- Remove trailing whitespace
-- Ensure files end with a newline
+- Lint a Python codebase. This includes:
+    - Fixing blank lines containing whitespace
+    - Remove trailing whitespace
+    - Ensuring files end with a newline
+    - Remove .Identifier files (problem specific to WSL)
 - Configurable file matching with glob patterns
-- Remove .Identifier files
 - Selective directory exclusion
 - Dry run mode to preview changes
 - Verbose output option
