@@ -17,7 +17,7 @@ from remove_identifier_files import remove_identifier_files
 def main() -> None:
     """Main entry point for the script."""
     parser = argparse.ArgumentParser(description="Fix common linting issues in Python codebases.")
-    parser.add_argument("target_directory", required=True,
+    parser.add_argument("target_directory",
                         help="Target directory to process.")
     parser.add_argument("--patterns", nargs="+", default=["**/*.py"],
                         help="File patterns to match (default: '**/*.py')")
