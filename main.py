@@ -41,6 +41,9 @@ def main() -> None:
         if args.verbose:
             print(f"Target directory: {args.target_directory}")
 
+
+    parser.get_default()
+
     # Remove .Identifier files
     identifier_files = remove_identifier_files(args.target_directory)
 
